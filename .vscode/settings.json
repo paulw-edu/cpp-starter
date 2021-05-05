@@ -1,0 +1,21 @@
+{
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.intelliSenseMemoryLimit": 8000,
+    "C_Cpp.autocomplete": "Disabled",
+    "files.associations": {
+        "*.tpl": "cpp",
+        "*.h": "c"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "material-icon-theme.folders.color": "#90a4ae",
+    "clangd.onConfigChanged": "restart",
+    "clangd.arguments": ["-log=verbose", "-pretty", "--background-index", "-clang-tidy"],
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}"
+}
