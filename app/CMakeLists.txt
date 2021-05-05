@@ -2,5 +2,5 @@ set(SOURCES
 main.cpp
 )
 
-add_executable(intro ${SOURCES})
-set_project_warnings(intro)
+add_executable(app ${SOURCES})
+set_project_warnings(app)
