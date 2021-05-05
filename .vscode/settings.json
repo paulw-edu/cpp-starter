@@ -14,8 +14,8 @@
     "[c]": {
         "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
     },
-    "material-icon-theme.folders.color": "#90a4ae",
     "clangd.onConfigChanged": "restart",
     "clangd.arguments": ["-log=verbose", "-pretty", "--background-index", "-clang-tidy"],
-    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}"
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
+    "cmake.copyCompileCommands": "${workspaceFolder}/build/compile_commands.json"
 }
