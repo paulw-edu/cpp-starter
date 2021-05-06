@@ -6,7 +6,7 @@
     "C_Cpp.autocomplete": "Disabled",
     "files.associations": {
         "*.tpl": "cpp",
-        "*.h": "c"
+        "*.h": "cpp"
     },
     "[cpp]": {
         "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
